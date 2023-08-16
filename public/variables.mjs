@@ -1,0 +1,14 @@
+const START_X = 5;
+const END_X = 630;
+const START_Y = 50;
+const END_Y = 424;
+
+const GAME_WIDTH = END_X - START_X;
+const GAME_HEIGHT = END_Y - START_Y;
+
+const PLAYER_SIZE = 30;
+const SPEED = 15;
+const COLLECTIBLE_SIZE = 15;
+
+
+export { START_X, END_X, START_Y, END_Y, GAME_WIDTH, GAME_HEIGHT, SPEED, COLLECTIBLE_SIZE,PLAYER_SIZE }
